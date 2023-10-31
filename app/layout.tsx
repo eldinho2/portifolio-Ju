@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Playfair_Display, Inter, Montserrat } from 'next/font/google'
 import './globals.css'
 import Header from './components/Header'
+import Wave from './components/Wave'
 
 const Playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
 const InterFont = Inter({ subsets: ['latin'],
