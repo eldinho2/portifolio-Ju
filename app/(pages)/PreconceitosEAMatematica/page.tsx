@@ -1,6 +1,4 @@
-import Image from "next/image";
-
-const Coletivo = () => {
+const PreconceitosEAMatematica = () => {
   return (
     <main className="flex font-mon p-10 justify-center items-center">
       <div>
@@ -54,4 +52,4 @@ const Coletivo = () => {
   );
 };
 
-export default Coletivo;
+export default PreconceitosEAMatematica;

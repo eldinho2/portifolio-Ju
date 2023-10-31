@@ -14,10 +14,10 @@ export default function Home() {
         </div>
         <div className='text-center absolute inset-0 flex items-center justify-center mb-24'>
           <div>
-            <h1 className='font-play text-8xl'>
+            <h1 className='font-play text-7xl'>
               Portifólio
             </h1>
-            <h2 className='font-play text-5xl'>
+            <h2 className='font-play text-7xl'>
               de
             </h2>
             <h1 className='font-play text-7xl'>
@@ -30,7 +30,7 @@ export default function Home() {
         <div className=''>
           <div className='flex gap-2'>
             <p>Discente:</p>
-            <p>Julia de Aguiar Dantas Henrrique</p>
+            <p>Julia de Aguiar Dantas Henrique</p>
           </div>
           <div>
             <p>Universidade Federal do Rio de Janeiro / FFP</p>

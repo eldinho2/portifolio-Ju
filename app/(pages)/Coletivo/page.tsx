@@ -23,7 +23,7 @@ const Coletivo = () => {
                     <p className="text-center text-lg font-semibold p-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, sint officia voluptatum doloremque maiores eius sapiente asperiores debitis voluptatibus hic. Repellendus maxime eos quaerat voluptatem tenetur explicabo fuga vitae dolorem!</p>
                 </div>
             </div>
-            <div>
+            <div className="mb-20">
                 <div className="bg-[#A28B6D] max-w-4xl px-4 pt-4 pb-2">
                 <Image
                     src={'/assets/gatinho5.png'}

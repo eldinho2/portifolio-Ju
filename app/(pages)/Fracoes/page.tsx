@@ -21,10 +21,10 @@ const Fracoes = () => {
             height={380}
             />
             <Image
-            src='/assets/gatinho7.png'
+            src='/assets/gatoachorrogato.png'
             alt='gatinho'
-            width={150}
-            height={150}
+            width={400}
+            height={400}
             className='object-cover'
             />
         </div>
@@ -64,7 +64,7 @@ const Fracoes = () => {
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
-        <div>
+        <div className=''>
           <div>
           <Link href={"https://www.youtube.com/watch?v=Pv36xzb-zBU&embeds_referring_euri=https%3A%2F%2Fsites.google.com%2F&source_ve_path=MjM4NTE&feature=emb_title&ab_channel=RoseliceParmegiani "} target='_blank' className='group'>
                 <div className='bg-[#6C99B6] hover:bg-[#4c6b81] my-3 rounded-xl px-4 text-center text-xl'>
@@ -73,7 +73,7 @@ const Fracoes = () => {
           </Link>
           </div>
           <Link href={"https://www.youtube.com/watch?v=Pv36xzb-zBU&embeds_referring_euri=https%3A%2F%2Fsites.google.com%2F&source_ve_path=MjM4NTE&feature=emb_title&ab_channel=RoseliceParmegiani "} target='_blank' className='group'>
-          <div className='flex gap-4'>
+          <div className='flex gap-4 mb-20'>
             <Image
                 src='/assets/bolodepapel.png'
                 alt='bolodepapel'

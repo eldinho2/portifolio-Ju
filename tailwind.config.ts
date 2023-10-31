@@ -12,6 +12,7 @@ const config: Config = {
         sans: ['var(--font-inter)'],
         play: ['var(--font-playfair)'],
         mon: ['var(--font-montserrat)'],
+        edu: ['var(--font-edu)'],
       },
       },
       backgroundImage: {

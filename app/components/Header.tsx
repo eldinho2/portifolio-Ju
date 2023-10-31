@@ -19,6 +19,12 @@ const Header = () => {
                 <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">
                     <div className="flex items-center gap-1 cursor-pointer">
                         <AiFillStar />
+                        <Link href="/">Início</Link>
+                    </div>
+                </div>
+                <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">
+                    <div className="flex items-center gap-1 cursor-pointer">
+                        <AiFillStar />
                         <Link href="/Apresentacao">Apresentação</Link>
                     </div>
                 </div>
