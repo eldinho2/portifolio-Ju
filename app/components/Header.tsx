@@ -37,7 +37,7 @@ const Header = () => {
                 <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">
                     <div className="flex items-center gap-1 cursor-pointer">
                         <AiFillStar />
-                        <Link href="/MatematicaProblematizada">Frações</Link>
+                        <Link href="/Fracoes">Frações</Link>
                     </div>
                 </div>
                 <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">

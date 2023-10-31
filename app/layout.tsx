@@ -23,8 +23,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt-BR">
-      <body className={`${InterFont.variable} ${Playfair.variable} ${MontserratFont.variable} font-sans h-screen`}>
+    <html lang="pt-BR" className=''>
+      <body className={`${InterFont.variable} ${Playfair.variable} ${MontserratFont.variable} font-sans`}>
       <Header />
       {
       children
