@@ -1,8 +1,12 @@
-import React from "react";
+import React from 'react';
 
-const Wave = () => {
+type WaveProps = {
+  height: number;
+};
+
+const Wave = ({ height }: WaveProps) => {
   return (
-    <div className="bg-black w-1000 h-1000 rounded-b-2xl"/>
+    <div className="bg-[#B8CDDB] w-[100px] rounded-b-full" style={{ height }} />
   );
 };
 

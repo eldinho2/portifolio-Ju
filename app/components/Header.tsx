@@ -1,10 +1,9 @@
 import Image from "next/image"
 import {AiFillStar} from "react-icons/ai"
-import Wave from "./Wave"
 
 const Header = () => {
     return (
-        <header className="bg-[#6C99B6] flex justify-around">
+        <header className="bg-[#6C99B6] flex justify-around h-16">
             <div className="">
                 <Image
                     src={"/assets/UERJ LOGO.png"}
