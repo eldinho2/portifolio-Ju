@@ -6,7 +6,7 @@ type WaveProps = {
 
 const Wave = ({ height }: WaveProps) => {
   return (
-    <div className="bg-[#B8CDDB] w-[100px] rounded-b-full" style={{ height }} />
+    <div className="bg-[#B8CDDB] w-[100px] rounded-b-full select-none pointer-events-none" style={{ height }} />
   );
 };
 
