@@ -11,6 +11,7 @@ const config: Config = {
       fontFamily: {
         sans: ['var(--font-inter)'],
         play: ['var(--font-playfair)'],
+        mon: ['var(--font-montserrat)'],
       },
       },
       backgroundImage: {
