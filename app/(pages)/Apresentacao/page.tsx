@@ -17,7 +17,7 @@ const Apresentação = () => {
               alt='gatinho'
               width={200}
               height={200}
-              className='select-none pointer-events-none md:w-[100px] md:h-[100px] w-[100px] h-[100px]'
+              className='select-none pointer-events-none md:w-[100px] md:h-[100px]'
             />
           </div>
           <div className='absolute top-[-126px] left-[700px] -z-30 md:left-[290px] md:top-[-72px]'>
@@ -26,7 +26,7 @@ const Apresentação = () => {
               alt='gatinho'
               width={200}
               height={200}
-              className='select-none pointer-events-none md:w-[100px] md:h-[100px] m2d:w-[100px] h-[100px]'
+              className='select-none pointer-events-none md:w-[100px] md:h-[100px]'
             />
           </div>
         </div>

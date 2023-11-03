@@ -3,9 +3,9 @@ import Image from "next/image";
 
 const MatematicaProblematizada = () => {
   return (
-    <main className="flex justify-evenly items-center flex-col mt-10 md:mt-3 md:p-10 mt-3 md:mb-11 mb-11">
+    <main className="flex justify-evenly items-center flex-col mt-10 md:mt-3 md:p-10 md:mb-11 mb-11">
       <div className="flex flex-col max-w-xl">
-        <h1 className="text-center text-4xl font-play font-bold md:text-4xl text-2xl">
+        <h1 className="text-center text-4xl font-play font-bold md:text-4xl">
           Matemática Problematizada
         </h1>
         <p className="mt-4 text-xl font-mon font-semibold">

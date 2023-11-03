@@ -27,9 +27,11 @@ export default function RootLayout({
     <html lang="pt-BR" className=''>
       <body className={`${InterFont.variable} ${Playfair.variable} ${MontserratFont.variable} ${EduFont.variable} font-sans`}>
       <Header />
-      {
-      children
-      }
+        <div className='pt-12'>
+          {
+          children
+          }
+        </div>
       <Footer />
       </body>
     </html>
