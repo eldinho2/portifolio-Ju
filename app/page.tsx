@@ -14,9 +14,9 @@ export default function Home() {
         </div>
         <div className="text-center absolute inset-0 flex items-center justify-center mb-24">
           <div>
-            <h1 className="font-play text-7xl md:text-6xl">Portifólio</h1>
-            <h2 className="font-play text-7xl md:text-6xl">de</h2>
-            <h1 className="font-play text-7xl md:text-6xl">Matemática II</h1>
+            <h1 className="font-play text-7xl md:text-6xl sm:text-4xl">Portifólio</h1>
+            <h2 className="font-play text-7xl md:text-6xl sm:text-4xl">de</h2>
+            <h1 className="font-play text-7xl md:text-6xl sm:text-4xl">Matemática II</h1>
           </div>
         </div>
       </section>
