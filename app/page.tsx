@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import Wave from './components/Wave';
+import Image from "next/image";
+import Wave from "./components/Wave";
 
 export default function Home() {
   return (
@@ -12,34 +12,28 @@ export default function Home() {
             </div>
           ))}
         </div>
-        <div className='text-center absolute inset-0 flex items-center justify-center mb-24'>
+        <div className="text-center absolute inset-0 flex items-center justify-center mb-24">
           <div>
-            <h1 className='font-play text-7xl'>
-              Portifólio
-            </h1>
-            <h2 className='font-play text-7xl'>
-              de
-            </h2>
-            <h1 className='font-play text-7xl'>
-              Matemática II
-            </h1>
+            <h1 className="font-play text-7xl md:text-6xl">Portifólio</h1>
+            <h2 className="font-play text-7xl md:text-6xl">de</h2>
+            <h1 className="font-play text-7xl md:text-6xl">Matemática II</h1>
           </div>
         </div>
       </section>
-      <section className='font-play font-medium text-2xl flex justify-center gap-8'>
-        <div className=''>
-          <div className='flex gap-2'>
+      <section className="font-play font-medium text-2xl flex justify-center gap-8 md:items-center">
+        <div className="md:text-lg ml-4">
+          <div className="flex gap-2">
             <p>Discente:</p>
             <p>Julia de Aguiar Dantas Henrique</p>
           </div>
           <div>
             <p>Universidade Federal do Rio de Janeiro / FFP</p>
           </div>
-          <div className='flex gap-2'>
+          <div className="flex gap-2">
             <p>Curso: </p>
             <p>Pedagogia</p>
           </div>
-          <div className='flex gap-2'>
+          <div className="flex gap-2">
             <p>Docente:</p>
             <p>Fábio Menezes</p>
           </div>
@@ -47,14 +41,14 @@ export default function Home() {
             <p>Segundo semestre de 2023</p>
           </div>
         </div>
-        <div className='select-none pointer-events-none'>
-            <Image
-              src='/assets/gatinho1.png'
-              alt='gatinho'
-              width={400}
-              height={400}
-              className='select-none pointer-events-none'
-            />
+        <div className="select-none pointer-events-none">
+          <Image
+            src="/assets/gatinho1.png"
+            alt="gatinho"
+            width={400}
+            height={400}
+            className="select-none pointer-events-none md:w-[200px] md:h-[150px]"
+          />
         </div>
       </section>
     </main>

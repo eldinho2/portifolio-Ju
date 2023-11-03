@@ -16,7 +16,7 @@ const Header = () => {
                     />
                 </div>
             </Link>
-            <div className="flex align-middle justify-center items-center gap-5 select-none sm2:hidden sm:hidden md:hidden md:text-sm lg:text-xs">
+            <div className="flex align-middle justify-center items-center gap-5 select-none sm2:hidden sm:hidden md:hidden hidden md:text-sm lg:text-xs">
                 <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">
                     <div className="flex items-center gap-1 cursor-pointer">
                         <AiFillStar />

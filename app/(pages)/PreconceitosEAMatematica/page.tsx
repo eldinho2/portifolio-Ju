@@ -1,12 +1,12 @@
 const PreconceitosEAMatematica = () => {
   return (
-    <main className="flex font-mon p-10 justify-center items-center">
+    <main className="flex font-mon p-10 justify-center items-center md:p-3">
       <div>
         <div>
-          <h1 className="font-play text-6xl font-semibold py-3">
+          <h1 className="font-play text-6xl font-semibold py-3 md:text-3xl md:text-center">
             Preconceitos e a Matemática
           </h1>
-          <div className="flex gap-5 text-lg font-semibold">
+          <div className="flex gap-5 text-lg font-semibold md:flex-col md:items-center md:py-2 md:mb-11">
             <div>
               <h1 className="text-center">Transfobia</h1>
               <div className="bg-[#B8CDDB] p-6 w-64 rounded-xl">

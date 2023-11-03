@@ -11,9 +11,9 @@ const config: Config = {
       'sm': {'min': '0px', 'max': '250px'},
       // => @media (min-width: 640px and max-width: 767px) { ... }
 
-      'sm2': {'min': '250px', 'max': '350px'},
+      'sm2': {'min': '250px', 'max': '410px'},
 
-      'md': {'min': '350px', 'max': '550px'},
+      'md': {'min': '410px', 'max': '550px'},
       // => @media (min-width: 768px and max-width: 1023px) { ... }
 
       'lg': {'min': '550px', 'max': '900px'},
