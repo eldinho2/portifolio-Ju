@@ -14,14 +14,18 @@ export default function Home() {
         </div>
         <div className="text-center absolute inset-0 flex items-center justify-center mb-24">
           <div>
-            <h1 className="font-play text-7xl md:text-6xl sm:text-4xl">Portifólio</h1>
+            <h1 className="font-play text-7xl md:text-6xl sm:text-4xl">
+              Portifólio
+            </h1>
             <h2 className="font-play text-7xl md:text-6xl sm:text-4xl">de</h2>
-            <h1 className="font-play text-7xl md:text-6xl sm:text-4xl">Matemática II</h1>
+            <h1 className="font-play text-7xl md:text-6xl sm:text-4xl">
+              Matemática II
+            </h1>
           </div>
         </div>
       </section>
-      <section className="font-play font-medium text-2xl flex justify-center gap-8 md:items-center">
-        <div className="md:text-lg ml-4">
+      <section className="font-play font-medium text-2xl flex justify-center gap-8 md:items-center sm:flex-col">
+        <div className="ml-4 md:text-lg sm:text-base">
           <div className="flex gap-2">
             <p>Discente:</p>
             <p>Julia de Aguiar Dantas Henrique</p>

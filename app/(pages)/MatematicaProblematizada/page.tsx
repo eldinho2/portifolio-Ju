@@ -5,10 +5,10 @@ const MatematicaProblematizada = () => {
   return (
     <main className="flex justify-evenly items-center flex-col mt-10 md:mt-3 md:p-10 md:mb-11 mb-11">
       <div className="flex flex-col max-w-xl">
-        <h1 className="text-center text-4xl font-play font-bold md:text-4xl">
+        <h1 className="text-center text-4xl font-play font-bold md:text-4xl sm:text-2xl">
           Matemática Problematizada
         </h1>
-        <p className="mt-4 text-xl font-mon font-semibold">
+        <p className="mt-4 text-xl font-mon font-semibold sm:text-lg sm:p-2">
           ga at id numquam sapiente cumque hic. Lorem ipsum dolor sit amet,
           consectetur adipisicing elit. Reprehenderit perferendis quis neque ab
           dolore illo id. Ex aliquid dolorem inventore molestias quibusdam,
@@ -29,7 +29,7 @@ const MatematicaProblematizada = () => {
           width={280}
           height={280}
         />
-        <p className="text-xl font-mon font-semibold">
+        <p className="text-xl font-mon font-semibold sm:text-lg sm:p-2">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi at
           illo nisi, dolore ea omnis odio doloribus iste dignissimos nemo
           perspiciatis, adipisci unde ipsam. Alias cum est quidem quam pariatur.

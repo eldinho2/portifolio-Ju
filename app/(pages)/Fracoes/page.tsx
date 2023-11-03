@@ -5,10 +5,10 @@ import Link from 'next/link';
 const Fracoes = () => {
   return (
     <main className='h-full'>
-      <section className='flex justify-center items-center mt-10 md:mt-3 md:flex-col'>
+      <section className='flex justify-center items-center mt-10 md:mt-3 md:flex-col sm:flex-col'>
         <div className='flex flex-col max-w-xl'>
-            <h1 className='text-center text-4xl font-play font-bold'>Frações</h1>
-            <p className='mt-4 text-xl font-mon font-semibold md:text-base md:p-4'>
+            <h1 className='text-center text-4xl font-play font-bold sm:text-2xl'>Frações</h1>
+            <p className='mt-4 text-xl font-mon font-semibold md:text-base md:p-4 sm:text-base sm:p-2'>
                 O QUE É FRAÇÃO
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
@@ -19,21 +19,21 @@ const Fracoes = () => {
             alt='pizza'
             width={380}
             height={380}
-            className='md:h-[200px] md:w-[300px]'
+            className='md:h-[200px] md:w-[300px] sm:h-[150px] sm:w-[200px]'
             />
             <Image
             src='/assets/gatoachorrogato.png'
             alt='gatinho'
             width={400}
             height={400}
-            className='md:h-[200px] md:w-[300px]'
+            className='md:h-[200px] md:w-[300px] sm:h-[150px] sm:w-[200px]'
             />
         </div>
       </section>
       <section className='flex justify-center items-center gap-10 my-10 md:gap-3 md: p-4'>
         <div>
             <Link href={"https://www.youtube.com/watch?v=M4CvnsO5YD4&ab_channel=DivulgandoVideos"} target='_blank' className='group'>
-              <div className='bg-[#6C99B6] hover:bg-[#4c6b81] my-3 rounded-xl px-4 text-center text-xl md:text-base'>
+              <div className='bg-[#6C99B6] hover:bg-[#4c6b81] my-3 rounded-xl px-4 text-center text-xl md:text-base sm:text-sm'>
                   Video Do Camelo
               </div>
             </Link>
@@ -44,7 +44,7 @@ const Fracoes = () => {
                     width={300}
                     height={300}
                 />
-                <div className='absolute top-[188px] right-[-44px] md:top-[60px] md:right-[-10px]'>
+                <div className='absolute top-[188px] right-[-44px] md:top-[60px] md:right-[-10px] sm:top-[51px] sm:right-[-23px]'>
                 <Image
                     src='/assets/gatonocamelo2.png'
                     alt='gatonocamelo'
@@ -55,13 +55,13 @@ const Fracoes = () => {
                 </div>
             </div>
         </div>
-        <div className='max-w-2xl text-xl font-mon font-semibold md:text-base'>
+        <div className='max-w-2xl text-xl font-mon font-semibold md:text-base sm:text-sm'>
             <h1>Lorem ipsum dolor sit amevoluptate in mollitia asperiores accusantium recusandae fugiat, aliquam ullam repellat aliquid ad a nesciunt cumque. Quam placeat eum dicta nostrum.</h1>
         </div>
       </section>
-      <section className='flex justify-center items-center gap-4 my-10 md:mb-11 md:gap-2'>
+      <section className='flex justify-center items-center gap-4 my-10 md:mb-11 md:gap-2 sm:gap-0'>
         <div>
-          <p className='max-w-xl text-xl font-mon font-semibold md:text-base md:p-4'>
+          <p className='max-w-xl text-xl font-mon font-semibold md:text-base md:p-4 sm:text-sm sm:p-4'>
           DOBRADURAS
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
@@ -69,13 +69,13 @@ const Fracoes = () => {
         <div className=''>
           <div>
           <Link href={"https://www.youtube.com/watch?v=Pv36xzb-zBU&embeds_referring_euri=https%3A%2F%2Fsites.google.com%2F&source_ve_path=MjM4NTE&feature=emb_title&ab_channel=RoseliceParmegiani "} target='_blank' className='group'>
-                <div className='bg-[#6C99B6] hover:bg-[#4c6b81] my-3 rounded-xl px-4 text-center text-xl md:text-base'>
+                <div className='bg-[#6C99B6] hover:bg-[#4c6b81] my-3 rounded-xl px-4 text-center text-xl md:text-base sm:text-sm'>
                 Fração e Dobraduras
                 </div>
           </Link>
           </div>
           <Link href={"https://www.youtube.com/watch?v=Pv36xzb-zBU&embeds_referring_euri=https%3A%2F%2Fsites.google.com%2F&source_ve_path=MjM4NTE&feature=emb_title&ab_channel=RoseliceParmegiani "} target='_blank' className='group'>
-          <div className='flex gap-4 mb-20'>
+          <div className='flex gap-4 mb-20 sm:flex-col'>
             <Image
                 src='/assets/bolodepapel.png'
                 alt='bolodepapel'
