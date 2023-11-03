@@ -2,11 +2,11 @@ import Image from "next/image";
 
 const Footer = () => {
     return (
-        <footer className="bg-[#6C99B6] max-h-24 flex justify-evenly items-center fixed bottom-0 left-0 right-0">
+        <footer className="bg-[#6C99B6] max-h-24 flex justify-evenly items-center fixed bottom-0 left-0 right-0 mx-auto">
             <div className="mb-3">
                 <Image src="/assets/logoffp.png" alt="logoFFP" width={160} height={160} className="" />
             </div> 
-            <div className="font-edu text-xl font-semibold">
+            <div className="font-edu text-xl font-semibold sm:hidden">
                 <p>Discente: Julia de Aguiar Dantas Henrique</p>
                 <p>
                 Pedagogia
