@@ -27,7 +27,7 @@ export default function HamburguerMenu() {
     <>
       <div
         onClick={handleOpen}
-        className="relative flex flex-col gap-[5px] cursor-pointer select-none lg:hidden"
+        className="relative hidden flex-col gap-[5px] cursor-pointer select-none sm2:flex sm:flex md:flex"
       >
         <span
           className={
@@ -44,8 +44,7 @@ export default function HamburguerMenu() {
         ></span>
       </div>
       {isOpen && (
-        <div onClick={handleOpen} className="absolute flex flex-col justify-center gap-3 w-full h-screen top-[13%] left-0 p-2 pb-44 z-[99] bg-[#6C99B6] select-none overflow-hidden">
-          <div>
+        <div onClick={handleOpen} className="absolute flex flex-col justify-center gap-2 w-full h-screen top-[8%] left-0 p-2 pb-44 z-[99] bg-[#6C99B6] select-none overflow-hidden">
             <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">
               <div className="flex items-center gap-1 cursor-pointer">
                 <AiFillStar />
@@ -93,7 +92,6 @@ export default function HamburguerMenu() {
               </div>
             </div>
           </div>
-        </div>
       )}
     </>
   );

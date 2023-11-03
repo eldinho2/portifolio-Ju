@@ -11,10 +11,12 @@ const config: Config = {
       'sm': {'min': '0px', 'max': '250px'},
       // => @media (min-width: 640px and max-width: 767px) { ... }
 
-      'md': {'min': '768px', 'max': '1023px'},
+      'sm2': {'min': '250px', 'max': '350px'},
+
+      'md': {'min': '350px', 'max': '550px'},
       // => @media (min-width: 768px and max-width: 1023px) { ... }
 
-      'lg': {'min': '1000px', 'max': '9999px'},
+      'lg': {'min': '550px', 'max': '900px'},
       // => @media (min-width: 1024px and max-width: 1279px) { ... }
 
       'xl': {'min': '1280px', 'max': '1535px'},
