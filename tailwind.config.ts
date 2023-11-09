@@ -26,6 +26,9 @@ const config: Config = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+      },
       fontFamily: {
         sans: ['var(--font-inter)'],
         play: ['var(--font-playfair)'],

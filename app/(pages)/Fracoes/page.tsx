@@ -35,6 +35,15 @@ const Fracoes = () => {
             height={380}
             className="md:h-[200px] md:w-[300px] sm:h-[150px] sm:w-[200px]"
           />
+          <div className="animate-spin-slow ">
+          <Image
+            src="/assets/gato pensando.jpg"
+            alt="gatinho"
+            width={200}
+            height={200}
+            className="md:h-[200px] md:w-[300px] sm:h-[150px] sm:w-[200px]"
+          />
+          </div>
           <Image
             src="/assets/gatoachorrogato.png"
             alt="gatinho"
