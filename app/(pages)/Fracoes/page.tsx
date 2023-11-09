@@ -54,7 +54,7 @@ const Fracoes = () => {
             className="group"
           >
             <div className="bg-[#6C99B6] hover:bg-[#4c6b81] my-3 rounded-xl px-4 text-center text-xl md:text-base sm:text-sm">
-              Video Do Camelo
+            Video camelo - Link
             </div>
           </Link>
           <div className="relative">
@@ -122,7 +122,7 @@ const Fracoes = () => {
               className="group"
             >
               <div className="bg-[#6C99B6] hover:bg-[#4c6b81] my-3 rounded-xl px-4 text-center text-xl md:text-base sm:text-sm">
-                Fração e Dobraduras
+                Fração e Dobraduras - Link
               </div>
             </Link>
           </div>

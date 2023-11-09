@@ -57,7 +57,7 @@ const Footer = ({ children, direction }: Props) => {
         setDidScroll(true);
       });
     };
-  }, [didScroll, lastScrollTop, navbarHeight]);
+  }, [didScroll, direction, lastScrollTop, navbarHeight]);
 
   return <div ref={referencia}>{children}</div>;
 };
