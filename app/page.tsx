@@ -31,7 +31,7 @@ export default function Home() {
             <p>Julia de Aguiar Dantas Henrique</p>
           </div>
           <div>
-            <p>Universidade Federal do Rio de Janeiro / FFP</p>
+            <p>Universidade Estadual do Rio de Janeiro / FFP</p>
           </div>
           <div className="flex gap-2">
             <p>Curso: </p>
