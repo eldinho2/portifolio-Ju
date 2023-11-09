@@ -9,7 +9,7 @@ const Coletivo = () => {
             Trabalho em Grupo:
           </h1>
           <div className="flex gap-5 text-lg font-semibold md:flex-col md:justify-center md:items-center sm:justify-center sm:items-center sm:flex-col sm:text-base">
-            <div className="bg-[#B8CDDB] p-6 w-80 rounded-xl sm:w-44 sm:p-2">
+            <div className="bg-[#B8CDDB] p-6 w-80 rounded-xl sm:w-72 sm:p-2">
               <p>
                 Durante essa aula, tivemos uma dinamica diferente: O professor
                 no fez trabalhar em grupo. Ele gerou perguntas que levavam a
@@ -20,7 +20,7 @@ const Coletivo = () => {
                 de 4 estágios.
               </p>
             </div>
-            <div className="bg-[#F7BB97] p-6 w-80 rounded-xl sm:w-44 sm:p-2">
+            <div className="bg-[#F7BB97] p-6 w-80 rounded-xl sm:w-72  ssm:p-2">
               <p>
                 No trabalho colaborativo, o processo é mais aberto e os membros
                 da equipe interagem para atingir um objetivo compartilhado. Já,
@@ -28,10 +28,10 @@ const Coletivo = () => {
                 monitorado diretamente por ele.
               </p>
             </div>
-            <div className="bg-[#FFD2CC] p-6 w-96 rounded-xl sm:w-44 sm:p-2">
+            <div className="bg-[#FFD2CC] p-6 w-96 rounded-xl sm:w-72  sm:p-2">
               <h1 className="font-bold text-xl">Tipos de Estágio</h1>
               <div className="flex flex-col gap-3 mt-4">
-                <ul>
+                <ul className="flex flex-col gap-4">
                   <li>Estágio 1: Concessão = Tempo de fala</li>
                   <li>Estágio 2: Escutar</li>
                   <li>
