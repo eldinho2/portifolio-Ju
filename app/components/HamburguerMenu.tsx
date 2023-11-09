@@ -80,14 +80,6 @@ export default function HamburguerMenu() {
             <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">
               <div className="flex items-center gap-1 cursor-pointer">
                 <AiFillStar />
-                <Link href="/PreconceitosEAMatematica">
-                  Preconceitos e a Matemática
-                </Link>
-              </div>
-            </div>
-            <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">
-              <div className="flex items-center gap-1 cursor-pointer">
-                <AiFillStar />
                 <Link href="/ConsideracoesFinais">Considerações Finais</Link>
               </div>
             </div>
