@@ -36,13 +36,13 @@ const Fracoes = () => {
             className="md:h-[200px] md:w-[300px] sm:h-[150px] sm:w-[200px]"
           />
           <div className="animate-spin-slow ">
-          <Image
-            src="/assets/gato pensando.jpg"
-            alt="gatinho"
-            width={200}
-            height={200}
-            className="md:h-[200px] md:w-[300px] sm:h-[150px] sm:w-[200px]"
-          />
+            <Image
+              src="/assets/gato pensando.jpg"
+              alt="gatinho"
+              width={200}
+              height={200}
+              className="md:h-[100px] md:w-[100px] sm:h-[100px] sm:w-[100px]"
+            />
           </div>
           <Image
             src="/assets/gatoachorrogato.png"
@@ -63,7 +63,7 @@ const Fracoes = () => {
             className="group"
           >
             <div className="bg-[#6C99B6] hover:bg-[#4c6b81] my-3 rounded-xl px-4 text-center text-xl md:text-base sm:text-sm">
-            Video camelo - Link
+              Video camelo - Link
             </div>
           </Link>
           <div className="relative">
@@ -85,7 +85,12 @@ const Fracoes = () => {
           </div>
         </div>
         <div className="max-w-2xl text-xl font-mon font-semibold pl-2 md:text-base sm:text-sm">
-          <p>
+          <div className="flex justify-center items-center">
+            <h1 className="text-center text-4xl font-play font-bold sm:text-2xl">
+              Matemática e Camelos
+            </h1>
+          </div>
+          <p className="mt-4">
             Com o vídeo &lsquo;O Homem que Calculava&lsquo; podemos discutir se
             a divisão foi coerente, abordando questões como metade, terça parte,
             nona parte, unidade inteira, dividir o que não está inteiro, tornar
@@ -107,7 +112,12 @@ const Fracoes = () => {
       </section>
       <section className="flex justify-center items-center gap-4 my-10 md:mb-11 md:gap-2 sm:gap-0">
         <div>
-          <p className="max-w-xl text-xl font-mon font-semibold md:text-base md:p-4 sm:text-sm sm:p-4">
+        <div className="flex justify-center items-center">
+            <h1 className="text-center text-4xl font-play font-bold sm:text-2xl">
+              Fração e Dobraduras
+            </h1>
+          </div>
+          <p className="mt-4 max-w-xl text-xl font-mon font-semibold md:text-base md:p-4 sm:text-sm sm:p-4">
             Abordar a divisão de frações utilizando dobraduras é uma estratégia
             visual e lúdica. Ao dobrar uma folha de papel A4, representamos
             frações, tornando o conceito mais tangível. Por exemplo, ao dobrar a
@@ -144,7 +154,7 @@ const Fracoes = () => {
           >
             <div className="flex gap-4 mb-20 sm:flex-col md:flex-col">
               <Image
-                src="/assets/bolodepapel.png"
+                src="/assets/DOBRADURA FOLAS.jpg"
                 alt="bolodepapel"
                 width={300}
                 height={300}
