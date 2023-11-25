@@ -20,7 +20,7 @@ const Coletivo = () => {
                 de 4 estágios.
               </p>
             </div>
-            <div className="bg-[#F7BB97] p-6 w-80 rounded-xl sm:w-72  ssm:p-2">
+            <div className="bg-[#F7BB97] p-6 w-80 rounded-xl sm:w-72  sm:p-2">
               <p>
                 No trabalho colaborativo, o processo é mais aberto e os membros
                 da equipe interagem para atingir um objetivo compartilhado. Já,
@@ -28,7 +28,7 @@ const Coletivo = () => {
                 monitorado diretamente por ele.
               </p>
             </div>
-            <div className="bg-[#FFD2CC] p-6 w-96 rounded-xl sm:w-72  sm:p-2">
+            <div className="bg-[#FFD2CC] p-6 w-80 rounded-xl sm:w-72  sm:p-2">
               <h1 className="font-bold text-xl">Tipos de Estágio</h1>
               <div className="flex flex-col gap-3 mt-4">
                 <ul className="flex flex-col gap-4">
@@ -45,11 +45,23 @@ const Coletivo = () => {
               </div>
             </div>
           </div>
-          <p className="opacity-0 text-center text-lg font-semibold p-6 sm:text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
-            sint officia voluptatum doloremque maiores eius sapiente asperiores
-            debitis voluptatibus hic. Repellendus maxime eos quaerat voluptatem
-            tenetur explicabo fuga vitae dolorem!
+          <p className="text-center text-lg font-semibold p-6 sm:text-base max-w-7xl">
+            O trabalho em grupo, por vezes desafiador, é uma experiência crucial
+            no desenvolvimento acadêmico e profissional. Nem sempre
+            compartilhamos afinidades com nossos colegas, e divergências de
+            pensamento podem surgir. No entanto, é fundamental reconhecer a
+            importância de trabalhar cooperativamente e colaborativamente para
+            alcançar objetivos comuns. Utilizando o modelo do foguete de 4
+            estágios, a dinâmica se inicia com a etapa de concessão, concedendo
+            tempo para cada participante expressar suas ideias. Segue-se pela
+            fase de escuta atenta, onde a compreensão das diferentes
+            perspectivas é valorizada. Na etapa de reflexão, cada membro do
+            grupo pondera sobre as contribuições, e, por fim, na fase de
+            colaboração, todos são incentivados a contribuir para a construção
+            coletiva. Essa abordagem promove um ambiente propício para debates
+            saudáveis, permitindo a expressão de pensamentos conflitantes e
+            diversos, enriquecendo a experiência e fomentando o aprendizado
+            mútuo.
           </p>
         </div>
       </div>
@@ -66,8 +78,8 @@ const Coletivo = () => {
           <Image
             src={"/assets/gatinho6.png"}
             alt="gatinho"
-            width={400}
-            height={400}
+            width={300}
+            height={300}
           />
         </div>
         <div className="mt-20">
