@@ -11,7 +11,7 @@ const Footer = ({ children, direction }: Props) => {
   const [didScroll, setDidScroll] = useState(false);
   const [lastScrollTop, setLastScrollTop] = useState(0);
   const delta = 1;
-  const navbarHeight = 10;
+  const navbarHeight = 1;
 
   useEffect(() => {
     const element = referencia.current;
