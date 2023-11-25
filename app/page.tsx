@@ -24,7 +24,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="font-play font-medium text-2xl flex justify-center gap-8 md:items-center sm:flex-col">
+      <section className="font-play font-medium text-2xl flex justify-center gap-8 md:items-center sm:flex-col md:flex-col">
         <div className="ml-4 md:text-lg sm:text-base">
           <div className="flex gap-2">
             <p>Discente:</p>

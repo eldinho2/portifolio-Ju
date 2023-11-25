@@ -9,31 +9,26 @@ const MatematicaProblematizada = () => {
           Matemática Problematizada
         </h1>
         <p className="mt-4 text-xl font-mon font-semibold sm:text-lg sm:p-2 text-left sm:text-center">
-          A matemática por muito tempo, foi algo certo, concreto e imutável, tal
-          como falado no artigo &ldquo;QUE MATEMÁTICA PARA A FORMAÇÃO DE
-          PROFESSORES? POR UMA MATEMÁTICA PROBLEMATIZADA&rdquo; de Vitor
-          Giraldo, &ldquo;argumentos baseados em aspectos tais como tradição –
-          “sempre foi assim, então deve continuar sendo assim” –, experiência –
-          “quando eu estudei era assim, então deve continuar sendo assim” –, ou
-          preferência – “eu acho isso muito legal, então tem que ser assim”.
-          Pode ser surpreendente o fato de que uma discussão tão complexa e com
-          tantos desdobramentos nas sociedades contemporâneas seja abordada com
-          base em argumentos tão &ldquo;pouco rigorosos&rdquo;, especialmente
-          por pessoas cujas atividades profissionais envolvem os rigores da
-          pesquisa acadêmica. Tais argumentações parecem desconsiderar as
-          complexidades das questões envolvidas na formação de professores, seus
-          pressupostos e suas implicações, que as caracterizam como objetos de
-          investigação.&rdquo;.
+          A matemática por muito tempo, foi algo certo, concreto e imutável, mas
+          por que é assim? No artigo &ldquo; QUE MATEMÁTICA PARA A FORMAÇÃO DE
+          PROFESSORES? POR UMA MATEMÁTICA PROBLEMATIZADA&rdquo; de Vitor Giraldo,
+          podemos ter uma ideia do motivo: &ldquo;argumentos baseados em aspectos
+          tais como tradição – “sempre foi assim, então deve continuar sendo
+          assim” –, experiência – “quando eu estudei era assim, então deve
+          continuar sendo assim” –, ou preferência – “eu acho isso muito legal,
+          então tem que ser assim”. Pode ser surpreendente o fato de que uma
+          discussão tão complexa e com tantos desdobramentos nas sociedades
+          contemporâneas seja abordada com base em argumentos tão “pouco
+          rigorosos”, especialmente por pessoas cujas atividades profissionais
+          envolvem os rigores da pesquisa acadêmica. Tais argumentações parecem
+          desconsiderar as complexidades das questões envolvidas na formação de
+          professores, seus pressupostos e suas implicações, que as caracterizam
+          como objetos de investigação.&rdquo;
         </p>
         <p className="mt-4 text-xl font-mon font-semibold sm:text-lg sm:p-2 text-left sm:text-center">
-          A matemática problematizada é uma abordagem de ensino que vai além da
-          visão tradicional de uma disciplina &ldquo;exata e
-          inquestionável&ldquo;. Ela busca criar sentido para o mundo, afetar
-          positivamente as pessoas e proporcionar um sentido libertador ao
-          aprendizado matemático. Essa abordagem envolve a descoberta e criação
-          de padrões, sendo um instrumento para o desenvolvimento de diversas
-          áreas científicas e sociais, além de servir como linguagem para
-          comunicação.
+          Com isso, podemos concluir que, argumentos &ldquo;rasos&rdquo; como tradição,
+          preferência ou experiencia, desconsiderando diversos fatores, fazem
+          com que o ciclo da matemática não problematizadora se perpetue.
         </p>
       </div>
       <div className="flex flex-col justify-center items-center max-w-5xl">
