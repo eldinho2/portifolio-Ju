@@ -17,7 +17,7 @@ const Fracoes = () => {
             fração vem do latim fractus e significa &lsquo;partido&lsquo;,
             dividido ou quebrado&lsquo;. Mas a fração, vai fundamentada além
             disso, vai na relação parte todo, surge de necessidade humana de
-            medir, comparar e se localizar. <br /> Na matemática, as frações são
+            medir, contar e se localizar. <br /> Na matemática, as frações são
             uma representação das partes de um todo, indicando a divisão desse
             todo em partes iguais. Cada fração é composta por dois elementos: o
             numerador, que representa o número de partes consideradas, e o
