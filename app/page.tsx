@@ -3,7 +3,7 @@ import Wave from "./components/Wave";
 
 export default function Home() {
   return (
-    <main className="overflow-hidden">
+    <main className="overflow-hidden h-screen">
       <section className="relative">
         <div className="flex">
           {Array.from({ length: 65 }, (_, i) => (
