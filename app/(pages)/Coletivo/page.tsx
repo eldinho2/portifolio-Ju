@@ -17,7 +17,7 @@ const Coletivo = () => {
         </FadeFromLeft>
           
           <div className="flex gap-5 text-lg font-semibold md:flex-col md:justify-center md:items-center sm:justify-center sm:items-center sm:flex-col sm:text-base">
-            <FadeIn className="bg-[#B8CDDB] p-6 w-80 rounded-xl sm:w-72 sm:p-2">
+            <FadeIn className="bg-[#77a0b9] p-6 w-80 rounded-xl sm:w-72 sm:p-2">
               <p>
                 Durante essa aula, tivemos uma dinamica diferente: O professor
                 no fez trabalhar em grupo. Ele gerou perguntas que levavam a

@@ -9,7 +9,7 @@ const Apresentação = () => {
           Apresentação
         </h1>
         <div className="relative z-[40] mb-[100px]">
-          <div className="bg-[#B8CDDB] max-w-4xl p-4 rounded-xl font-mon font-semibold md:max-w-sm sm:max-w-[300px]">
+          <div className="bg-[#77a0b9] max-w-4xl p-4 rounded-xl font-mon font-semibold md:max-w-sm sm:max-w-[300px]">
             <p>
               Este portfólio é uma jornada pela disciplina de Matemática, Conteúdo
               e Método II, ministrada pelo Prof. Dr. Fábio Menezes na Faculdade de
