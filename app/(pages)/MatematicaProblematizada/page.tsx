@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import Image from "next/image";
 import {
@@ -7,8 +5,6 @@ import {
   FadeFromLeft,
   FadeFromRigth,
 } from "@/app/components/Animations";
-import { useRef } from "react";
-import { useInView } from "framer-motion";
 
 const MatematicaProblematizada = () => {
   return (

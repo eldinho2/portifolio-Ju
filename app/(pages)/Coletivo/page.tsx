@@ -1,15 +1,23 @@
 import Image from "next/image";
+import {
+  FadeIn,
+  FadeFromLeft,
+  FadeFromRigth,
+} from "@/app/components/Animations";
 
 const Coletivo = () => {
   return (
     <main className="flex font-mon pt-10 px-10 justify-center items-center md:p-3">
       <div>
         <div className="md:mb-12 mb-12">
+        <FadeFromLeft>
           <h1 className="font-play text-6xl font-semibold py-3 md:text-4xl md:text-center sm:text-2xl sm:text-center">
             Trabalho em Grupo:
           </h1>
+        </FadeFromLeft>
+          
           <div className="flex gap-5 text-lg font-semibold md:flex-col md:justify-center md:items-center sm:justify-center sm:items-center sm:flex-col sm:text-base">
-            <div className="bg-[#B8CDDB] p-6 w-80 rounded-xl sm:w-72 sm:p-2">
+            <FadeIn className="bg-[#B8CDDB] p-6 w-80 rounded-xl sm:w-72 sm:p-2">
               <p>
                 Durante essa aula, tivemos uma dinamica diferente: O professor
                 no fez trabalhar em grupo. Ele gerou perguntas que levavam a
@@ -19,16 +27,16 @@ const Coletivo = () => {
                 trabalhar cooperativamente e colaborativamente, usando o foguete
                 de 4 estágios.
               </p>
-            </div>
-            <div className="bg-[#F7BB97] p-6 w-80 rounded-xl sm:w-72  sm:p-2">
+            </FadeIn>
+            <FadeIn time={0.4} className="bg-[#F7BB97] p-6 w-80 rounded-xl sm:w-72  sm:p-2">
               <p>
                 No trabalho colaborativo, o processo é mais aberto e os membros
                 da equipe interagem para atingir um objetivo compartilhado. Já,
                 no trabalho cooperativo, o processo é mais focado no líder e
                 monitorado diretamente por ele.
               </p>
-            </div>
-            <div className="bg-[#FFD2CC] p-6 w-80 rounded-xl sm:w-72  sm:p-2">
+            </FadeIn>
+            <FadeIn time={0.5} className="bg-[#FFD2CC] p-6 w-80 rounded-xl sm:w-72  sm:p-2">
               <h1 className="font-bold text-xl">Tipos de Estágio</h1>
               <div className="flex flex-col gap-3 mt-4">
                 <ul className="flex flex-col gap-4">
@@ -43,8 +51,9 @@ const Coletivo = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </FadeIn>
           </div>
+          <FadeFromLeft onView>
           <p className="text-center text-lg font-semibold p-6 sm:text-base max-w-7xl">
             O trabalho em grupo, por vezes desafiador, é uma experiência crucial
             no desenvolvimento acadêmico e profissional. Nem sempre
@@ -63,9 +72,10 @@ const Coletivo = () => {
             diversos, enriquecendo a experiência e fomentando o aprendizado
             mútuo.
           </p>
+          </FadeFromLeft>
         </div>
       </div>
-      <div className="mb-20 md:hidden sm:hidden">
+      <FadeFromRigth className="mb-20 md:hidden sm:hidden">
         <div className="bg-[#A28B6D] max-w-4xl px-4 pt-4 pb-2">
           <Image
             src={"/assets/gatinho5.png"}
@@ -90,7 +100,7 @@ const Coletivo = () => {
             height={300}
           />
         </div>
-      </div>
+      </FadeFromRigth>
     </main>
   );
 };
