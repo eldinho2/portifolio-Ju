@@ -30,3 +30,8 @@
 ::-webkit-scrollbar-button {
   background: #6C99B6;
 }
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}

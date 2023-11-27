@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Coletivo = () => {
   return (
-    <main className="flex font-mon p-10 justify-center items-center md:p-3">
+    <main className="flex font-mon pt-10 px-10 justify-center items-center md:p-3">
       <div>
         <div className="md:mb-12 mb-12">
           <h1 className="font-play text-6xl font-semibold py-3 md:text-4xl md:text-center sm:text-2xl sm:text-center">

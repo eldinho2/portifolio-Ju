@@ -25,13 +25,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className=''>
-      <body className={`${InterFont.variable} ${Playfair.variable} ${MontserratFont.variable} ${EduFont.variable} font-sans`}>
+      <body className={`${InterFont.variable} ${Playfair.variable} ${MontserratFont.variable} ${EduFont.variable} font-sans flex-1`}>
       <Header />
-        <div className='py-16'>
           {
           children
           }
-        </div>
       <Footer />
       </body>
     </html>

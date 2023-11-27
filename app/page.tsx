@@ -45,12 +45,12 @@ export default function Home() {
             <p>Segundo semestre de 2023</p>
           </div>
         </div>
-        <div className="select-none pointer-events-none">
+        <div className="select-none h-[250px] pointer-events-none">
           <Image
             src="/assets/gatinho1.png"
             alt="gatinho"
-            width={400}
-            height={400}
+            width={300}
+            height={300}
             className="select-none pointer-events-none md:w-[200px] md:h-[150px]"
           />
         </div>

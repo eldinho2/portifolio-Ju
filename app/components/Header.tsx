@@ -1,18 +1,14 @@
-"use client";
-
 import Image from "next/image";
 import { AiFillStar } from "react-icons/ai";
 import Link from "next/link";
 import HamburguerMenu from "./HamburguerMenu";
-import FadeOnScroll from "./FadeOnScroll";
 
 
 function Header() {
 
   return (
-    <FadeOnScroll direction="down">
     <header
-      className="bg-[#6C99B6] flex items-center fixed w-screen justify-around h-16 mx-auto transition-all ease-in-out duration-500 z-50"
+      className="bg-[#6C99B6] flex items-center justify-around mx-auto transition-all ease-in-out duration-500 z-50"
     >
       <Link href="/">
         <div className="cursor-pointer">
@@ -66,7 +62,6 @@ function Header() {
       </div>
       <HamburguerMenu />
     </header>
-    </FadeOnScroll>
   );
 }
 
