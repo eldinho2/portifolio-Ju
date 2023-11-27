@@ -1,8 +1,11 @@
 import Image from "next/image";
+import {
+  FadeIn
+} from "@/app/components/Animations";
 
 const ConsideracoesFinais = () => {
   return (
-    <main className="flex justify-center items-center flex-col mt-28 mb-11">
+    <FadeIn className="flex justify-center items-center flex-col mt-28 mb-11">
       <section className="bg-[#F7BB97] z-100 relative max-w-5xl p-4 text-center rounded-lg md:max-w-xs md:my-14 sm:w-72 sm:my-10  ">
         <div className="flex flex-col justify-center items-center gap-4">
           <h1 className="font-play font-bold text-5xl md:text-3xl sm:text-2xl">
@@ -67,7 +70,7 @@ const ConsideracoesFinais = () => {
           />
         </div>
       </section>
-    </main>
+    </FadeIn>
   );
 };
 
