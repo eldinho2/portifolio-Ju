@@ -1,12 +1,17 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import {
+  FadeIn,
+  FadeFromLeft,
+  FadeFromRigth,
+} from "@/app/components/Animations";
 
 const Fracoes = () => {
   return (
     <main className="h-full">
       <section className="flex justify-center items-center mt-10 md:mt-3 md:flex-col sm:flex-col">
-        <div className="flex flex-col max-w-xl">
+        <FadeFromLeft className="flex flex-col max-w-xl">
           <h1 className="text-center text-4xl font-play font-bold sm:text-2xl">
             Frações
           </h1>
@@ -26,8 +31,8 @@ const Fracoes = () => {
             proporcionando uma maneira eficiente de descrever porções
             específicas de um inteiro.
           </p>
-        </div>
-        <div className="flex flex-col justify-center items-center max-w-xl gap-9">
+        </FadeFromLeft>
+        <FadeFromRigth className="flex flex-col justify-center items-center max-w-xl gap-9">
           <Image
             src="/assets/pizza.png"
             alt="pizza"
@@ -51,10 +56,10 @@ const Fracoes = () => {
             height={400}
             className="md:h-[200px] md:w-[300px] sm:h-[150px] sm:w-[200px]"
           />
-        </div>
+        </FadeFromRigth>
       </section>
       <section className="flex justify-center items-center gap-10 my-10 sm:flex-col sm2:flex-col md:flex-col md:gap-3 md:p-4">
-        <div>
+        <FadeFromLeft onView>
           <Link
             href={
               "https://www.youtube.com/watch?v=M4CvnsO5YD4&ab_channel=DivulgandoVideos"
@@ -83,36 +88,39 @@ const Fracoes = () => {
               />
             </div>
           </div>
-        </div>
-        <div className="max-w-2xl text-xl font-mon font-semibold pl-2 md:text-base sm:text-sm">
-          <div className="flex justify-center items-center">
-            <h1 className="text-center text-4xl font-play font-bold sm:text-2xl">
-              Matemática e Camelos
-            </h1>
+        </FadeFromLeft>
+        <FadeFromRigth onView>
+          <div className="max-w-2xl text-xl font-mon font-semibold pl-2 md:text-base sm:text-sm">
+            <div className="flex justify-center items-center">
+              <h1 className="text-center text-4xl font-play font-bold sm:text-2xl">
+                Matemática e Camelos
+              </h1>
+            </div>
+            <p className="mt-4">
+              Com o vídeo &lsquo;O Homem que Calculava&lsquo; podemos discutir
+              se a divisão foi coerente, abordando questões como metade, terça
+              parte, nona parte, unidade inteira, dividir o que não está
+              inteiro, tornar as partes semelhantes para somar e explorar
+              frações equivalentes. <br /> No video, Beremiz, ao enfrentar a
+              divisão de 35 camelos entre três irmãos com frações incomuns (1/2,
+              1/3, 1/9), percebe que não formam uma unidade inteira. Ele resolve
+              o problema ao completar a unidade inteira, tornando as partes
+              semelhantes. Ao pensar em dois camelos como uma unidade,
+              totalizando 36 camelos, a divisão se torna mais simples. O
+              primeiro irmão fica com metade (18 camelos), o segundo com a terça
+              parte (12 camelos) e o terceiro com a nona parte (4 camelos).
+              Beremiz demonstra habilidade matemática ao encontrar uma solução
+              coerente e vantajosa para todos. Com acesso a um video como esse,
+              podemos usar em sala de aula e levantar questões a partir do
+              videos, gerando um gatilho e discusão inicial intrigantes aos
+              alunos.
+            </p>
           </div>
-          <p className="mt-4">
-            Com o vídeo &lsquo;O Homem que Calculava&lsquo; podemos discutir se
-            a divisão foi coerente, abordando questões como metade, terça parte,
-            nona parte, unidade inteira, dividir o que não está inteiro, tornar
-            as partes semelhantes para somar e explorar frações equivalentes.{" "}
-            <br /> No video, Beremiz, ao enfrentar a divisão de 35 camelos entre
-            três irmãos com frações incomuns (1/2, 1/3, 1/9), percebe que não
-            formam uma unidade inteira. Ele resolve o problema ao completar a
-            unidade inteira, tornando as partes semelhantes. Ao pensar em dois
-            camelos como uma unidade, totalizando 36 camelos, a divisão se torna
-            mais simples. O primeiro irmão fica com metade (18 camelos), o
-            segundo com a terça parte (12 camelos) e o terceiro com a nona parte
-            (4 camelos). Beremiz demonstra habilidade matemática ao encontrar
-            uma solução coerente e vantajosa para todos. Com acesso a um video
-            como esse, podemos usar em sala de aula e levantar questões a partir
-            do videos, gerando um gatilho e discusão inicial intrigantes aos
-            alunos.
-          </p>
-        </div>
+        </FadeFromRigth>
       </section>
       <section className="flex justify-center items-center gap-4 my-10 md:mb-11 md:gap-2 sm:gap-0">
-        <div>
-        <div className="flex justify-center items-center">
+        <FadeFromLeft onView>
+          <div className="flex justify-center items-center">
             <h1 className="text-center text-4xl font-play font-bold sm:text-2xl">
               Fração e Dobraduras
             </h1>
@@ -130,8 +138,8 @@ const Fracoes = () => {
             envolvente, estimulando a curiosidade e promovendo uma compreensão
             duradoura do conceito.
           </p>
-        </div>
-        <div className="">
+        </FadeFromLeft>
+        <FadeFromRigth onView>
           <div>
             <Link
               href={
@@ -167,7 +175,7 @@ const Fracoes = () => {
               />
             </div>
           </Link>
-        </div>
+        </FadeFromRigth>
       </section>
     </main>
   );
