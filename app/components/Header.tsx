@@ -8,7 +8,7 @@ function Header() {
 
   return (
     <header
-      className="bg-[#6C99B6] flex items-center justify-around mx-auto transition-all ease-in-out duration-500 z-50"
+      className="bg-[#6C99B6] fixed top-0 w-full flex items-center justify-around mx-auto transition-all ease-in-out duration-500 z-50"
     >
       <Link href="/">
         <div className="cursor-pointer">

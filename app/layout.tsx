@@ -44,7 +44,9 @@ export default function RootLayout({
         className={`${InterFont.variable} ${Playfair.variable} ${MontserratFont.variable} ${EduFont.variable} font-sans flex-1`}
       >
         <Header />
+        <div className="pt-10">
         {children}
+        </div>
         <Footer />
       </body>
     </html>
