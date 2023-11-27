@@ -1,9 +1,10 @@
 import React from "react";
 import Image from "next/image";
+import {FadeIn}  from '@/app/components/Animations'
 
 const Apresentação = () => {
   return (
-    <main className="flex justify-center items-center flex-col h-screen">
+    <FadeIn className="flex justify-center items-center flex-col h-screen">
         <h1 className="text-8xl font-play py-3 font-bold mb-2 md:text-4xl sm:text-lg">
           Apresentação
         </h1>
@@ -41,7 +42,7 @@ const Apresentação = () => {
             />
           </div>
         </div>
-    </main>
+    </FadeIn>
   );
 };
 

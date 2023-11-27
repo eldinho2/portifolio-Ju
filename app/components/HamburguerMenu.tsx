@@ -22,7 +22,7 @@ export default function HamburguerMenu() {
     };
 }, [isOpen]);
 
-  const closedMenu = "h-[3px] bg-black w-6";
+  const closedMenu = "h-[4px] bg-black w-6";
   return (
     <>
       <div
@@ -44,7 +44,7 @@ export default function HamburguerMenu() {
         ></span>
       </div>
       {isOpen && (
-        <div onClick={handleOpen} className="absolute flex flex-col justify-center gap-2 w-full h-screen top-[8%] left-0 p-2 pb-44 z-[99] bg-[#6C99B6] select-none overflow-hidden">
+        <div onClick={handleOpen} className="absolute flex flex-col justify-center gap-2 w-full h-screen top-[7%] left-0 p-2 pb-44 z-[99] bg-[#6C99B6] select-none overflow-hidden">
             <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">
               <div className="flex items-center gap-1 cursor-pointer">
                 <AiFillStar />
