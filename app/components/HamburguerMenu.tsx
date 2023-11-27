@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { AiFillStar } from "react-icons/ai";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function HamburguerMenu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,15 +13,15 @@ export default function HamburguerMenu() {
 
   useEffect(() => {
     if (isOpen) {
-        document.body.style.overflow = 'hidden';
+      document.body.style.overflow = "hidden";
     } else {
-        document.body.style.overflow = 'auto';
+      document.body.style.overflow = "auto";
     }
 
     return () => {
-        document.body.style.overflow = 'auto';
+      document.body.style.overflow = "auto";
     };
-}, [isOpen]);
+  }, [isOpen]);
 
   const closedMenu = "h-[4px] bg-black w-6";
   return (
@@ -44,46 +45,54 @@ export default function HamburguerMenu() {
         ></span>
       </div>
       {isOpen && (
-        <div onClick={handleOpen} className="absolute flex flex-col justify-center gap-2 w-full h-screen top-[7%] left-0 p-2 pb-44 z-[99] bg-[#6C99B6] select-none overflow-hidden">
-            <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">
-              <div className="flex items-center gap-1 cursor-pointer">
-                <AiFillStar />
-                <Link href="/">Início</Link>
-              </div>
-            </div>
-            <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">
-              <div className="flex items-center gap-1 cursor-pointer">
-                <AiFillStar />
-                <Link href="/Apresentacao">Apresentação</Link>
-              </div>
-            </div>
-            <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">
-              <div className="flex items-center gap-1 cursor-pointer">
-                <AiFillStar />
-                <Link href="/MatematicaProblematizada">
-                  Matemática Problematizada
-                </Link>
-              </div>
-            </div>
-            <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">
-              <div className="flex items-center gap-1 cursor-pointer">
-                <AiFillStar />
-                <Link href="/Coletivo">Coletivo</Link>
-              </div>
-            </div>
-            <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">
-              <div className="flex items-center gap-1 cursor-pointer">
-                <AiFillStar />
-                <Link href="/Fracoes">Frações</Link>
-              </div>
-            </div>
-            <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">
-              <div className="flex items-center gap-1 cursor-pointer">
-                <AiFillStar />
-                <Link href="/ConsideracoesFinais">Considerações Finais</Link>
-              </div>
+        <motion.div
+          key="menu"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -20 }}
+          transition={{ duration: 0.3 }}
+          onClick={handleOpen}
+          className="absolute flex flex-col justify-center gap-2 w-full h-screen top-[7%] left-0 p-2 pb-44 z-[99] bg-[#6C99B6] select-none overflow-hidden"
+        >
+          <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">
+            <div className="flex items-center gap-1 cursor-pointer">
+              <AiFillStar />
+              <Link href="/">Início</Link>
             </div>
           </div>
+          <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">
+            <div className="flex items-center gap-1 cursor-pointer">
+              <AiFillStar />
+              <Link href="/Apresentacao">Apresentação</Link>
+            </div>
+          </div>
+          <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">
+            <div className="flex items-center gap-1 cursor-pointer">
+              <AiFillStar />
+              <Link href="/MatematicaProblematizada">
+                Matemática Problematizada
+              </Link>
+            </div>
+          </div>
+          <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">
+            <div className="flex items-center gap-1 cursor-pointer">
+              <AiFillStar />
+              <Link href="/Coletivo">Coletivo</Link>
+            </div>
+          </div>
+          <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">
+            <div className="flex items-center gap-1 cursor-pointer">
+              <AiFillStar />
+              <Link href="/Fracoes">Frações</Link>
+            </div>
+          </div>
+          <div className="flex items-center gap-1 group hover:text-yellow-500 hover:underline">
+            <div className="flex items-center gap-1 cursor-pointer">
+              <AiFillStar />
+              <Link href="/ConsideracoesFinais">Considerações Finais</Link>
+            </div>
+          </div>
+        </motion.div>
       )}
     </>
   );
